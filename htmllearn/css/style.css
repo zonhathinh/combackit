@@ -1,0 +1,29 @@
+h1 {
+  color: aquamarine;
+  /* Kiểu chữ */
+  font-style: italic;
+  /* font chữ */
+  font-family: "Times New Roman", Times, serif;
+  /* chuyển full hoa */
+  text-transform: uppercase;
+  /* căn giữa */
+  text-align: center;
+  /* cỡ chữ */
+  font-size: 30px;
+}
+h2 {
+  /* opacity: 10%; */
+  /* display: none; */
+  visibility: hidden;
+  color: aquamarine;
+  background-color: blue;
+}
+span {
+  visibility: visible;
+}
+h3 {
+  color: aquamarine;
+}
+body {
+  /* background-image: url(./img/a.jpg); */
+}

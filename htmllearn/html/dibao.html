@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Đi Bão</h1>
+    <p>KSJGHGFSJFDSJHJSJHSJJSJHJHSJHSHJSJS</p>
+    <form>
+      <label for="full-name">Nhập họ và tênddddddddddd</label> <br />
+      <input
+        type="text"
+        id="full-name"
+        name="full-name"
+        placeholder="Nhập ho và tên"
+        required
+        size="30"
+      />
+      <br />
+      <label for="email">email</label> <br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Gmail của fr"
+        required
+        size="30px"
+      />
+      <br /><br />
+      <label for="story">Mô tả</label><br />
+      <textarea
+        name="story"
+        id="story"
+        required
+        placeholder="Mô tả cảm xúc sinh"
+        rows="5"
+        cols="50"
+        spellcheck="true"
+      ></textarea>
+
+      <br />
+      <fieldset>
+        <legend>Giới tính của bạn</legend>
+        <label for="male">
+          <input type="radio" id="male" name="gender" /> nam
+        </label>
+        <br />
+        <label for="female">
+          <input type="radio" id="female" name="gender" /> nữ
+        </label>
+        <br />
+        <label for="other">
+          <input type="radio" id="other" name="gender" /> khác
+        </label>
+      </fieldset>
+
+      <br />
+
+      <br />
+      <label for="position">Vị trí</label>
+      <select name="position" id="position">
+        <option value="ST">Tiền đoạ</option>
+        <option value="RM">Tiền vệ phải</option>
+        <option value="cb">Trung vệ</option>
+        <option value="GK">Thuỷ môn</option>
+      </select>
+      <br />
+      <label for="number">Mức đọ phan cường ngu</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        min="1"
+        max="10"
+        step="2"
+      />
+
+      <br /><br />
+      <label for="favorite=layer">Cầu Thủ yêu quý</label>
+      <input
+        type="text"
+        name="favorite=layer"
+        id="favorite=layer"
+        list="prolayer"
+      />
+      <datalist id="prolayer">
+        <option value="A"></option>
+        <option value="b"></option>
+        <option value="Abc"></option>
+        <option value="As"></option>
+      </datalist>
+      <br />
+      <p><b>Bạn có cam kết vui khi đội t uyển ngu vc</b></p>
+      <label for="camket">Cam kết</label>
+      <input type="checkbox" name="camket" id="camket" checked />
+      <br />
+      <button type="submit">Gửi đơn</button>
+      <button type="reset">Xoá</button>
+    </form>
+  </body>
+</html>
